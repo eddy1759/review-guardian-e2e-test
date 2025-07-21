@@ -1,0 +1,14 @@
+version: 1
+default_severity: warning
+
+rules:
+  - name: "Block TODO Comments"
+    condition: "banned-terms"
+    # We are looking for the exact word "TODO"
+    terms: ["TODO"]
+    caseSensitive: true
+    # This rule will be a hard failure
+    severity: error
+    paths:
+      # Only apply this rule to files in the src directory
+      - "src/**"
