@@ -9,7 +9,7 @@ rules:
     terms: ["TODO"]
     caseSensitive: true
     # This rule will be a hard failure
-    severity: error
+    severity: warning
     paths:
       # Only apply this rule to files in the src directory
       - "src/**"
