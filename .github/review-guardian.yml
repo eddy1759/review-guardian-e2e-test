@@ -2,14 +2,8 @@ version: 1
 default_severity: warning
 
 rules:
-  - name: "Block TODO Comments"
-    condition: "banned-terms"
+  - name: "Changelog Check"
+    condition: "require-changelog"
     
-    # We are looking for the exact word "TODO"
-    terms: ["TODO"]
-    caseSensitive: true
     # This rule will be a hard failure
-    severity: warning
-    paths:
-      # Only apply this rule to files in the src directory
-      - "src/**"
+    severity: error
