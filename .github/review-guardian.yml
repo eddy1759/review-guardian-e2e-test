@@ -2,8 +2,10 @@ version: 1
 default_severity: warning
 
 rules:
-  - name: "Changelog Check"
-    condition: "require-changelog"
-    
+  - name: "Tests Required for Source Changesk"
+    condition: "require-tests"
     # This rule will be a hard failure
     severity: error
+    testPatterns: 
+      - "**/*.test.js"
+      - "**/*.spec.js"
