@@ -4,6 +4,7 @@ default_severity: warning
 rules:
   - name: "Block TODO Comments"
     condition: "banned-terms"
+    
     # We are looking for the exact word "TODO"
     terms: ["TODO"]
     caseSensitive: true
