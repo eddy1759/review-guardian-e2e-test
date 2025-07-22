@@ -3,7 +3,7 @@ default_severity: warning
 
 rules:
   - name: "Tests Required for Source Changesk"
-    condition: "require-testsg"
+    condition: "require-tests"
     # This rule will be a hard failure
     severity: error
     testPatterns: 
