@@ -5,5 +5,5 @@
 // TODO: Implement the database connection logic here.
 
 function main() {
-  return "hello world and welcome";
+  return "hello world and welcome implementation";
 }
