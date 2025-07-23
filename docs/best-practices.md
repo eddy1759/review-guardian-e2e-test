@@ -1,0 +1,1 @@
+All new API endpoints must perform user authorization checks before accessing data. The user ID should be retrieved from the request context.
