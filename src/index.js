@@ -1,5 +1,5 @@
 // testing AI functionality 
-// testing
+// testing json injection
 function main() {
   return "hello world";
 }
