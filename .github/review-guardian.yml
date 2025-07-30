@@ -12,5 +12,5 @@ rag_sources:
 
   # The main README is also a source of context
   - path: "README.md"
-    weight: 0.53
+    weight: 0.54
 rules: [] 
