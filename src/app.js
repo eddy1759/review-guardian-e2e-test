@@ -1,7 +1,6 @@
-// A new feature file
-
-// TODO: This is a test comment that should be flagged by Review Guardian.
-
+// testing AI functionality 
+// This is another test comment
+// new test
 function main() {
-  return "hello world";
+  return "hello world and welcome";
 }
