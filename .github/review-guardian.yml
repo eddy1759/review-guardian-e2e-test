@@ -4,13 +4,13 @@ default_severity: warning
 rag_sources:
   # High-priority architectural decision records
   - path: "docs/adr/**/*.md"
-    weight: 0.85
+    weight: 0.9
 
   # General development guidelines
-  - path: "docs/guides/development.md" # Note: This path is intentionally wrong for a later test
-    weight: 0.71
+  - path: "docs/guides/**/*.md" # Note: This path is intentionally wrong for a later test
+    weight: 0.5
 
   # The main README is also a source of context
   - path: "README.md"
-    weight: 0.55
+    weight: 0.2
 rules: [] 
