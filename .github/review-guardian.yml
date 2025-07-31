@@ -15,8 +15,6 @@ rag_sources:
     weight: 0.2
 rules:
   - name: "AI Database Policy Check"
-    condition: "ai-review"
-    # The severity 'error' means if the AI finds a violation, it should block the merge.
-    severity: "warning"
-    # This is the exact question we are asking the AI.
-    prompt: "A new developer on the team is asking about our testing and database standards. Please provide a summary of our key requirements based on the documentation." 
+    condition: "policy-question" 
+    severity: "error"
+    prompt: "A developer is adding a new service and wants to use MongoDB. Based on our team's documentation, is this allowed?"
