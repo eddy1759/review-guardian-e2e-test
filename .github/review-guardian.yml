@@ -15,6 +15,6 @@ rag_sources:
     weight: 0.2
 rules:
   - name: "AI Database Policy Check"
-    condition: "policy-question" 
+    condition: "policy-question"
     severity: "error"
-    prompt: "A developer is adding a new service and wants to use MongoDB. Based on our team's documentation, is this allowed?"
+    prompt: "A developer is adding a new service and wants to use MongoDB Database. Based on our team's documentation, is this allowed?"

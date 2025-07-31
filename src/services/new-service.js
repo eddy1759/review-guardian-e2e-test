@@ -2,4 +2,3 @@
 const client = new MongoClient("mongodb://...");
 
 // dummmy client use
-client.use()
