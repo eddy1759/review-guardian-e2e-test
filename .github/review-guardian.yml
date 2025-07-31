@@ -13,4 +13,10 @@ rag_sources:
   # The main README is also a source of context
   - path: "README.md"
     weight: 0.2
-rules: [] 
+rules:
+  - name: "AI Database Policy Check"
+    condition: "ai-review"
+    # The severity 'error' means if the AI finds a violation, it should block the merge.
+    severity: "error"
+    # This is the exact question we are asking the AI.
+    prompt: "A developer is adding a new service and wants to use MongoDB. Based on our team's documentation, is this allowed?" 
