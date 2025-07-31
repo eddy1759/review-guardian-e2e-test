@@ -8,7 +8,7 @@ rag_sources:
 
   # General development guidelines
   - path: "docs/guides/development.md" # Note: This path is intentionally wrong for a later test
-    weight: 0.70
+    weight: 0.72
 
   # The main README is also a source of context
   - path: "README.md"
